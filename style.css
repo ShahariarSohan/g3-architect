@@ -137,7 +137,7 @@ nav ul li a {
 
 .box {
     text-align: center;
-    padding:10px 40px;
+    padding: 10px 40px;
     border-radius: 8px;
     border: 1px solid #FF900E;
 }
@@ -145,12 +145,58 @@ nav ul li a {
 .icon-img {
     margin-top: 20px;
 }
+
 /* feature section styles */
-.feature-title{
-    margin:20px 800px 20px 130px;
+.feature-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.feature-para{
-    margin:0 660px 0 100px;
+.feature-content{
+    width:50%;
+   
+}
+.feature-title {
+    margin-left:100px;
+}
+
+.feature-para {
+   margin-left:100px
+}
+.feature-img-container{
+    width:40%;
+}
+.feature-img{
+    width:100%;
+}
+
+.card {
+    margin-left:130px;
+    width: 586px;
+    height: 171px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.ten-years {
+    text-align: center;
+    color: #FFF;
+    width: 340px;
+    border-radius: 8px;
+    background: #FF900E;
+}
+
+.ten-year-heading {
+    font-size: 3em;
+    font-weight: 700;
+    padding:20px 20px 0 20px;
+    margin:0;
+    
+}
+.ten-year-para{
+    padding:0px 30px 30px 30px;
+    margin:0;
 }
 
 /* media query */
@@ -169,7 +215,7 @@ nav ul li a {
     }
 
     .team-img,
-    .team-content{ 
+    .team-content {
         width: 100%;
     }
 
@@ -191,9 +237,10 @@ nav ul li a {
         margin: 40px auto;
         gap: 20px;
     }
-    .box{
-       width:100%;
-       padding:10px ;
+
+    .box {
+        width: 100%;
+        padding: 10px;
     }
 
 }
@@ -202,32 +249,35 @@ nav ul li a {
     .nav-container {
         padding: 50px 60px;
     }
+
     .banner-content {
         width: 80%;
     }
-    .team-container
-     {
+
+    .team-container {
         flex-direction: column;
     }
-    .facts-box-container
-     {
+
+    .facts-box-container {
         flex-direction: column;
-        gap:20px;
-     }
-    .team-img
-    {
+        gap: 20px;
+    }
+
+    .team-img {
         width: 100%;
     }
+
     .team-content {
         width: 90%;
-    } 
-    
-    .facts-content{
-        width:70%;
-        margin:auto;
     }
-    .box{
-        width:100%;
-        padding:10px ;
-     }
+
+    .facts-content {
+        width: 70%;
+        margin: auto;
+    }
+
+    .box {
+        width: 100%;
+        padding: 10px;
+    }
 }
