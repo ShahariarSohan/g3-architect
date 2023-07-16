@@ -114,7 +114,10 @@ nav ul li a {
     color:#FF900E;;
     font-weight: 700; 
 }
-
+/* facts section styles */
+.facts-content{
+    margin:50px 650px 50px 120px;
+}
 /* media query */
 @media screen and (max-width:576px) {
 
