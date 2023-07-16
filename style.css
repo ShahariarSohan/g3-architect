@@ -128,7 +128,7 @@ nav ul li a {
 }
 
 .facts-box-container {
-    width:80%;
+    width: 80%;
     margin: 100px auto;
     display: flex;
     justify-content: space-around;
@@ -140,10 +140,11 @@ nav ul li a {
     width: 200px;
     height: 200px;
     border-radius: 8px;
-    border: 1px solid #FF900E ;
+    border: 1px solid #FF900E;
 }
-.icon-img{
-    margin-top:20px;
+
+.icon-img {
+    margin-top: 20px;
 }
 
 /* media query */
@@ -174,6 +175,18 @@ nav ul li a {
         flex-direction: column;
     }
 
+    .facts-content {
+        margin: 0px;
+        padding: 0 50px;
+    }
+
+    .facts-box-container {
+        flex-direction: column;
+        margin: 40px auto;
+        gap: 20px;
+    }
+
+
 }
 
 @media screen and (min-width:576px) and (max-width:1000px) {
@@ -196,4 +209,5 @@ nav ul li a {
     .team-content {
         width: 90%;
     }
+
 }
