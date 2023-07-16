@@ -7,13 +7,17 @@
 /* header styles */
 header {
     background: rgba(255, 144, 14, 0.10);
+    
 }
 
 /* nav styles */
 .nav-container {
+     
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding:50px 200px;
+    
     
 }
 
@@ -134,9 +138,6 @@ nav ul li a {
     .box{
         width:100%;
     }
-    .feature-info{
-        width:30%;
-    }
-    
+   
     
 }
