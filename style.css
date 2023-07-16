@@ -10,7 +10,7 @@ header {
 }
 
 /* nav styles */
-nav {
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,5 +81,35 @@ nav ul li a {
 }
 /* media query */
 @media screen and (max-width:576px) {
+    /* banner style */
+    .nav-container ,nav ul{
+        flex-direction: column;
+        padding:0;
+        margin:0;
+    }
     
+    nav ul{
+        margin-right:40px;
+    }
+    nav li a{
+        font-size:2em;
+    }
+    .banner-title {
+        font-size: 3rem; 
+    }
+    
+    .banner-img{
+        height:auto;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-container{
+        padding:50px 80px;
+    }
+    
+}
+@media screen and (min-width:992px) and (max-width:1650px){
+    .nav-container{
+        padding:50px 150px;
+    }
 }
