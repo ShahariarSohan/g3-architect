@@ -145,6 +145,13 @@ nav ul li a {
 .icon-img {
     margin-top: 20px;
 }
+/* feature section styles */
+.feature-title{
+    margin:20px 800px 20px 130px;
+}
+.feature-para{
+    margin:0 660px 0 100px;
+}
 
 /* media query */
 @media screen and (max-width:576px) {
@@ -195,11 +202,9 @@ nav ul li a {
     .nav-container {
         padding: 50px 60px;
     }
-
     .banner-content {
         width: 80%;
     }
-
     .team-container
      {
         flex-direction: column;
@@ -213,7 +218,6 @@ nav ul li a {
     {
         width: 100%;
     }
-
     .team-content {
         width: 90%;
     } 
@@ -226,6 +230,4 @@ nav ul li a {
         width:100%;
         padding:10px ;
      }
- 
-
 }
