@@ -41,13 +41,13 @@ nav ul li a {
 
 /* banner styles */
 .banner-info{
-    width:40%;
+    width:50%;
     margin:auto;
+    text-align: center;
 
 }
 .banner-title {
     color: #131313;
-    text-align: center;
     font-size: 4rem;
     font-weight: 700;
 }
@@ -55,7 +55,6 @@ nav ul li a {
 .paragraph-primary {
     color: #727272;
     font-size: 1rem;
-    text-align: center;
 }
 
 .btn-primary {
@@ -67,9 +66,6 @@ nav ul li a {
     border-radius: 8px;
     border:none;
     background: #FF900E;
-}
-.banner-btn{
-    text-align:center;
 }
 
 .banner-img {
@@ -86,15 +82,11 @@ nav ul li a {
 @media screen and (max-width:576px) {
     
     
-    .nav-container ,nav ul{
+    .nav-container{
         flex-direction: column;
         padding:0;
         margin:0;
     }
-    nav li a{
-        font-size:2em;
-    }
-    /* banner style */
     .banner-info{
         width:100%;
     }
@@ -105,12 +97,18 @@ nav ul li a {
 }
 @media screen and (min-width:576px) and (max-width:992px) {
     .nav-container{
-        padding:50px 80px;
+        padding:50px 60px;
+    }
+    .banner-info{
+        width:100%;
     }
     
 }
 @media screen and (min-width:992px) and (max-width:1650px){
     .nav-container{
         padding:50px 150px;
+    }
+    .banner-info{
+        width:100%;
     }
 }
