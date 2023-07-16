@@ -177,7 +177,7 @@ nav ul li a {
 
     .facts-content {
         margin: 0px;
-        padding: 0 50px;
+        padding: 0 80px;
     }
 
     .facts-box-container {
@@ -208,6 +208,10 @@ nav ul li a {
 
     .team-content {
         width: 90%;
+    } 
+    .facts-content{
+        width:70%;
+        margin:auto;
     }
 
 }
