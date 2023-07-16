@@ -133,25 +133,31 @@ nav ul li a {
     .team-content {
         width: 100%;
     }
-
     .banner-title {
         font-size: 3rem;
     }
     .team-container {
         flex-direction: column;
     }
+   
 }
 
 @media screen and (min-width:576px) and (max-width:1000px) {
     .nav-container {
         padding: 50px 60px;
     }
-
     .banner-content {
         width: 80%;
     }
-
-    .team-img {
+    .team-container{
+        flex-direction: column;
+    }
+    .team-img
+    {   
         width: 100%;
+    }
+    .team-content
+    {   
+        width: 90%;
     }
 }
