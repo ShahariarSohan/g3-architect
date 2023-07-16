@@ -123,9 +123,6 @@ nav ul li a {
     .team-section{
         flex-direction: column;
     }
-    
-    
-    
 }
 @media screen and (min-width:576px) and (max-width:1000px) {
     .nav-container{
